@@ -1,0 +1,51 @@
+# Data
+dataset              = cifar10
+image_size           = 32
+image_channels       = 3
+
+# Training
+snapshot_freq        = 10000
+snapshot_threshold   = 10000
+log_freq             = 500
+eval_freq            = 2000
+fid_freq             = 10000
+fid_threshold        = 10000
+fid_samples_training = 10000
+eval_fid             = true
+n_eval_batches       = 32
+training_batch_size  = 128
+testing_batch_size   = 32
+sampling_batch_size  = 32
+n_eval_batches       = 1
+n_warmup_iters       = 2500
+n_train_iters        = 200000
+save_freq            = 10000
+save_threshold       = 1
+distributed          = true
+workdir              = ./work_dir/cifar10_speedup
+f_learning_times      = 20
+independent_log_gamma = dis
+eta                   = 0.2
+
+# Autocast
+autocast_train       = false
+
+# Sampling
+ref_statistics       = ./inception/cifar10-32x32.npz
+
+# Model
+name                 = speed_ddpm_cifar
+pretrained_model     = ./pretrained_model/cifar10_ema.pt  
+
+# SDE
+gt_steps             = 1000 
+n_discrete_steps     = 11
+
+
+# Optimization
+optimizer           = Adam
+phi_learning_rate   = 0.000016
+f_learning_rate     = 0.000064
+grad_clip           = 1.0
+weight_decay        = 0.0
+ema_rate            = 0.999
