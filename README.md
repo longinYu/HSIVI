@@ -1,9 +1,9 @@
 # Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration
 
-> [**Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration**](https://openreview.net) **NeurIPS 2023** <br>
+> [**Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration**](https://arxiv.org/abs/2310.17153) **NeurIPS 2023** <br>
 > Longlin Yu\*, Tianyu Xie\*, Yu Zhu\*, Tong Yang, Xiangyu Zhang and Cheng Zhang <br>
 
-This repository contains the implementation for the paper [Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration](https://openreview.net) (NeurIPS 2023). 
+This repository contains the implementation for the paper [Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration](https://arxiv.org/abs/2310.17153) (NeurIPS 2023). 
 
 ## Hierarchical Semi-Implicit Variational Inference
 <div  align="center">    
