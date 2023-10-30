@@ -33,7 +33,7 @@ More specifically, checkpoints of pre-trained $\bm{\epsilon}^*(\bm{x} ,s)$ we us
 |Dataset|Download link|
 |----|----|
 |Cifar10| [checkpoints](https://github.com/tqch/ddpm-torch/releases/download/checkpoints/cifar10_2040.pt)|
-|Celeba64| [checkpoints]()|
+|Celeba64| [checkpoints](https://drive.google.com/file/d/1-FvG9hqwoVFo4Pp5IEET_gl3hx5AX7H-/view?usp=drive_link)|
 |Imagenet64| [checkpoints](https://openaipublic.blob.core.windows.net/diffusion/march-2021/imagenet64_uncond_100M_1500K.pt)|
 
 ### 5. Training
