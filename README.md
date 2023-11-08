@@ -111,11 +111,12 @@ We referenced the training code of diffusion model acceleration for our models i
 If you find this code useful for your research, please consider citing
 ```
 @inproceedings{
-anonymous2023hierarchical,
+yu2023hierarchical,
 title={Hierarchical Semi-Implicit Variational Inference with Application to Diffusion Model Acceleration},
-author={Anonymous},
+author={Longlin Yu and Tianyu Xie and Yu Zhu and Tong Yang and Xiangyu Zhang and Cheng Zhang},
 booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
 year={2023},
 url={https://openreview.net/forum?id=ghIBaprxsV}
+}
 }
 ```
