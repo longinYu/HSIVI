@@ -118,5 +118,4 @@ booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
 year={2023},
 url={https://openreview.net/forum?id=ghIBaprxsV}
 }
-}
 ```
