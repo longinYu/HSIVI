@@ -1,0 +1,11 @@
+ninja
+h5py
+configargparse
+lmdb
+tfrecord
+matplotlib
+scikit-learn
+torch>=1.8.1
+torchvision
+einops
+tqdm
